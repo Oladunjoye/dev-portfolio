@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gatsby-plugin-sass": "^2.3.4"
+  }
+}

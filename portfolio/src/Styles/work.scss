@@ -1,0 +1,108 @@
+.work-page {
+  background-color: #f5f4fc;
+  margin: 0 auto;
+  width: 90%;
+
+  color: #474747;
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .section-details {
+    padding: 5rem;
+    text-align: center;
+
+    @media (max-width: 767px) {
+      padding: 0;
+
+      .info {
+        margin: 30px 0;
+      }
+    }
+  }
+
+  .container {
+    // width: 80%;
+    // margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    .card {
+      box-shadow: 0 3px 20px rgba(71, 71, 73, 0.08),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+      cursor: pointer;
+      //   background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgba(245, 244, 252, 0.62);
+      border-radius: 4px;
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      //   border: 1px solid;
+
+      //test
+      -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      // webkit-transition-property: -webkit-transform, box-shadow;
+      -webkit-transition-property: transform, box-shadow, border;
+      transition-property: transform, box-shadow, border;
+
+      .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+      }
+
+      .img {
+        width: 150px;
+      }
+      .custom {
+        width: 25%;
+      }
+
+      .text {
+        padding: 2em;
+        background-color: #fff;
+        height: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .main {
+          font-weight: bold;
+          font-size: 18px;
+        }
+
+        a {
+          color: #015fd1;
+          margin-bottom: 10px;
+          z-index: 10;
+        }
+      }
+
+      &:hover {
+        // transform: translateY(-20px);
+        // box-shadow: 1px 8px 20px grey;
+        // -webkit-transition: box-shadow 0.6s ease-in;
+        // transition: all 0.3s ease-in-out;
+        // box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        // border: 0.1px solid #cccccc;
+        // background-color: white;
+        box-shadow: 0 3px 20px rgba(71, 71, 73, 0.08),
+          0 1px 3px rgba(0, 0, 0, 0.08);
+
+        transform: translateY(-8px);
+        box-shadow: 15px 8px 6px -6px rgba(235, 234, 242, 0.58);
+      }
+    }
+  }
+}
