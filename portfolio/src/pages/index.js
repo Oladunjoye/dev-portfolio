@@ -76,81 +76,81 @@ export default function index() {
     <>
       <Layout>
         {/* <Fade bottom distance="30%"> */}
-          <section className="hero-page">
-            <div className="left">
-              <div className="greet">
-                <Typist
-                  avgTypingDelay={200}
-                  delay={300}
-                  cursor={{ hideWhenDone: true }}
-                >
-                  <span> Hola </span>
-                  <Typist.Backspace count={8} delay={500} />
-                  <span style={{ color: "black" }}> Ekaabo </span>
-                  <Typist.Backspace count={8} delay={1000} />
-                  <span style={{ color: "black" }}> Bonjour </span>
+        <section className="hero-page">
+          <div className="left">
+            <div className="greet">
+              <Typist
+                avgTypingDelay={200}
+                delay={300}
+                cursor={{ hideWhenDone: true }}
+              >
+                <span> Hola </span>
+                <Typist.Backspace count={8} delay={500} />
+                <span style={{ color: "black" }}> Ekaabo </span>
+                <Typist.Backspace count={8} delay={1000} />
+                <span style={{ color: "black" }}> Bonjour </span>
 
-                  <Typist.Backspace count={8} delay={1600} />
-                  <span style={{ color: "black" }}> Hi, </span>
-                </Typist>
-              </div>
-              <p className="name"> I'm Joye Shonubi</p>
-              <p className="position">
-                {" "}
-                I'm a Full Stack Software Engineer with expertise in Javascript
-              </p>
-
-              <div className="icons-wrapper">
-                <ul>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://www.linkedin.com/in/shonubi-joye-2b5a51131"
-                    >
-                      <i className="fab fa-linkedin-in"></i>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://github.com/Oladunjoye"
-                    >
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://twitter.com/Oladunjoye_"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href="https://medium.com/@shonubij"
-                    >
-                      <i className="fab fa-medium"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <p className="remark">
-                <i className="far fa-eye"></i>
-                <span>I've been expecting you</span>
-              </p>
+                <Typist.Backspace count={8} delay={1600} />
+                <span style={{ color: "black" }}> Hi, </span>
+              </Typist>
             </div>
+            <p className="name"> I'm Joye Shonubi</p>
+            <p className="position">
+              {" "}
+              I'm a Full Stack Software Engineer with expertise in Javascript
+            </p>
 
-            <div className="right">
-              <div className="image"></div>
+            <div className="icons-wrapper">
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/shonubi-joye-2b5a51131"
+                  >
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Oladunjoye"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://twitter.com/Oladunjoye_"
+                  >
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://medium.com/@shonubij"
+                  >
+                    <i className="fab fa-medium"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </section>
+            <p className="remark">
+              <i className="far fa-eye"></i>
+              <span>I've been expecting you</span>
+            </p>
+          </div>
+
+          <div className="right">
+            <div className="image"></div>
+          </div>
+        </section>
         {/* </Fade> */}
         <section className="work-page">
           <Fade bottom>
