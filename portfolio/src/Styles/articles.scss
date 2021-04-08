@@ -67,4 +67,10 @@
       }
     }
   }
+
+  @media (max-width: 767px) {
+    .read-btn {
+      margin: 10px auto;
+    }
+  }
 }

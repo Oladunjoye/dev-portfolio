@@ -75,11 +75,10 @@ export default function index() {
   return (
     <>
       <Layout>
-        <Fade bottom distance="30%">
+        {/* <Fade bottom distance="30%"> */}
           <section className="hero-page">
             <div className="left">
               <div className="greet">
-                {/* <span>Aloha</span>{" "} */}
                 <Typist
                   avgTypingDelay={200}
                   delay={300}
@@ -87,9 +86,9 @@ export default function index() {
                 >
                   <span> Hola </span>
                   <Typist.Backspace count={8} delay={500} />
-                  <span style={{ color: "purple" }}> Ekaabo </span>
+                  <span style={{ color: "black" }}> Ekaabo </span>
                   <Typist.Backspace count={8} delay={1000} />
-                  <span style={{ color: "red" }}> Bonjour </span>
+                  <span style={{ color: "black" }}> Bonjour </span>
 
                   <Typist.Backspace count={8} delay={1600} />
                   <span style={{ color: "black" }}> Hi, </span>
@@ -152,7 +151,7 @@ export default function index() {
               <div className="image"></div>
             </div>
           </section>
-        </Fade>
+        {/* </Fade> */}
         <section className="work-page">
           <Fade bottom>
             <div className="section-details">
