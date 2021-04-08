@@ -105,3 +105,12 @@ export default function About() {
     </section>
   )
 }
+
+
+// I’m a Software Engineer at Omnibiz Africa, a Software as a Service firm, where I build solutions that help Enterprises automate, and monitor their client and staff activities. Prior to that, I’ve worked with Upperlink Limited, a fintech company that provides financial services by leveraging the power of technology. I’ve also taken up several freelance roles and projects in the past.
+
+// I’m passionate about creating solutions that impact the society and I try to reflect this in my work and in my choice of places to work. Over the past 4 years, I’ve helped build services that have been used by small and medium enterprises to scale up their businesses, reach a wide audience and generate more income. I’ve also worked on products used by large enterprises such as banks and global chain stores amongst others to automate their activities and increase their output and productivity.
+
+// I’ve worked with a lot of technologies and learnt so much in the past years but I believe the greatest tool in my arsenal is my mind. As James Allen rightly said “Mind is the master power that moulds and makes, and man is mind, and evermore he takes the tool of thought, and, shaping what he wills, brings forth a thousand joys, a thousand ills. He thinks in secret, and it comes to pass. Environment is but his looking-glass.”
+
+// Asides coding, I really enjoy watching widlife documentaries and following the latest stories in the Marvel Universe. Sometimes, its hard to decide who I prefer between Thanos and Thor. I should also mention that Naruto is my all-time favorite anime and I've learnt so much about life from it.
